@@ -1,6 +1,6 @@
 node{
     stage('Checkout'){
-        git 'https://github.com/mbenguep/test-jenkins'
+        git 'https://github.com/mbenguep/ami'
     }
     stage('compile-package'){
 
